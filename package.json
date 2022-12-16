@@ -1,0 +1,15 @@
+{
+  "name": "yarn-berry-monorepo",
+  "packageManager": "yarn@3.3.0",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@next/font": "^13.0.7"
+  }
+}
